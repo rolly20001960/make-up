@@ -1,0 +1,18 @@
+{
+  "name": "church",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./dist/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "tailwindcss": "^4.0.9"
+  }
+}
